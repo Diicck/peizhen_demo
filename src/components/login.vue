@@ -61,7 +61,8 @@ export default {
    width: 64px;
    image-rendering: pixelated;
    padding: 5px;
-   border: 1px #ddd solid;
+   border: 1px #dedede solid;
+   box-shadow: rgba(0, 0, 0, 0.2) 0 0 15px;
    border-radius: 50%;
  }
 </style>
