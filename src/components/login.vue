@@ -15,6 +15,8 @@ export default {
       <el-col :span="6">
       <el-card shadow="hover">
 
+        <img src="@/assets/logo.png" alt="">
+
         <el-input
             placeholder="请输入用户名"
 
@@ -54,5 +56,12 @@ export default {
  }
  .el-button{
    margin-top: 25px;
+ }
+ img{
+   width: 64px;
+   image-rendering: pixelated;
+   padding: 5px;
+   border: 1px #ddd solid;
+   border-radius: 50%;
  }
 </style>
